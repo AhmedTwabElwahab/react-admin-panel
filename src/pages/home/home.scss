@@ -1,0 +1,32 @@
+.home
+{
+  display: flex;
+  .homeContainer
+  {
+    flex: 6;
+    .widgets,.featureSection
+    {
+      display: flex;
+      padding: 15px;
+      gap: 20px;
+    }
+    .featureSection
+    {
+      padding: 5px 15px;
+    }
+  }
+  .listContainer
+  {
+    box-shadow: 10px 10px 5px 0 rgb(181 181 181 / 20%);
+    padding: 15px;
+
+    .title
+    {
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: rgb(160, 160, 160);
+      padding: 10px;
+    }
+  }
+}

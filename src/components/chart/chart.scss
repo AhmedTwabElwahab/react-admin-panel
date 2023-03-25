@@ -1,0 +1,15 @@
+.Chart
+{
+  flex: 4;
+  box-shadow: 10px 10px 5px 0 rgb(181 181 181 / 20%);
+  padding: 10px;
+
+  .title
+  {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(160, 160, 160);
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+.tableCell
+{
+  .status
+  {
+    padding: 5px;
+    border-radius: 5px;
+
+    &.active {
+      color: green;
+      background: rgb(0, 128, 0, 0.151);
+    }
+
+    &.disable {
+      color: goldenrod;
+      background: rgba(189, 189, 3, 0.103);
+    }
+  }
+}
+

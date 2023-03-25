@@ -1,0 +1,86 @@
+.Featured
+{
+  flex: 2;
+  box-shadow: 10px 10px 5px 0 rgba(181, 181, 181, 0.2);
+  padding: 10px;
+  .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(160, 160, 160);;
+    .title
+    {
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: rgb(160, 160, 160);
+    }
+  }
+  .bottom
+  {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .FeaturedChart
+    {
+      width: 100px;
+      height: 100px;
+    }
+    p.title
+    {
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: rgb(160, 160, 160);
+    }
+    p.amount
+    {
+      font-size: 28px;
+      font-weight: 500;
+    }
+    p.des
+    {
+      font-size: 12px;
+      font-weight: 300;
+      color: gray;
+      text-align: center;
+    }
+    .summary
+    {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .item {
+        width: 100px;
+        align-items: center;
+        padding: 5px;
+        .title
+        {
+          font-size: 14px;
+          text-transform: uppercase;
+          font-weight: bold;
+          color: rgb(160, 160, 160);
+        }
+        .itemResult{
+          display: flex;
+          align-items: center;
+          margin-top: 10px;
+          font-size: 14px;
+          &.positive
+          {
+            color: green;
+          }
+          &.negative
+          {
+            color: red;
+          }
+        }
+
+      }
+    }
+  }
+}
